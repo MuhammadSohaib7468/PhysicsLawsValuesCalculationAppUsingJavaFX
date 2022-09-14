@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="586.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.physicsformulas.MainController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToMainScene" prefHeight="52.0" prefWidth="75.0" text="⌫">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="101.0" layoutY="46.0" prefHeight="44.0" prefWidth="394.0" text="POWER LAW">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="116.0" prefHeight="19.0" prefWidth="75.0" text="Power">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="115.0" layoutY="116.0" prefHeight="31.0" prefWidth="37.0" text="=">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCurrent1" alignment="CENTER" layoutX="152.0" layoutY="114.0" prefHeight="35.0" prefWidth="75.0" promptText="Current">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="239.0" layoutY="116.0" prefHeight="31.0" prefWidth="25.0" text="x">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtVoltage1" alignment="CENTER" layoutX="271.0" layoutY="114.0" prefHeight="35.0" prefWidth="75.0" promptText="Voltage">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="360.0" layoutY="116.0" prefHeight="31.0" prefWidth="37.0" text="=">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPower1" alignment="CENTER" disable="true" layoutX="407.0" layoutY="114.0" prefHeight="35.0" prefWidth="88.0" promptText="Result">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="495.0" layoutY="116.0" prefHeight="31.0" prefWidth="52.0" text="Watt">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="41.0" layoutY="186.0" prefHeight="24.0" prefWidth="75.0" text="Voltage">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="115.0" layoutY="185.0" prefHeight="31.0" prefWidth="37.0" text="=">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPower2" alignment="CENTER" layoutX="152.0" layoutY="183.0" prefHeight="35.0" prefWidth="75.0" promptText="Power">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="239.0" layoutY="185.0" prefHeight="31.0" prefWidth="25.0" text="÷">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCurrent2" alignment="CENTER" layoutX="271.0" layoutY="183.0" prefHeight="35.0" prefWidth="75.0" promptText="Current">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="360.0" layoutY="185.0" prefHeight="31.0" prefWidth="37.0" text="=">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtVoltage2" alignment="CENTER" disable="true" layoutX="407.0" layoutY="183.0" prefHeight="35.0" prefWidth="88.0" promptText="Result">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="495.0" layoutY="185.0" prefHeight="31.0" prefWidth="52.0" text="Volt">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="248.0" prefHeight="24.0" prefWidth="75.0" text="Current">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="114.0" layoutY="247.0" prefHeight="31.0" prefWidth="37.0" text="=">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPower3" alignment="CENTER" layoutX="151.0" layoutY="245.0" prefHeight="35.0" prefWidth="75.0" promptText="Power">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="238.0" layoutY="247.0" prefHeight="31.0" prefWidth="25.0" text="÷">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtVoltage3" alignment="CENTER" layoutX="270.0" layoutY="245.0" prefHeight="35.0" prefWidth="75.0" promptText="Voltage">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="359.0" layoutY="247.0" prefHeight="31.0" prefWidth="37.0" text="=">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCurrent3" alignment="CENTER" disable="true" layoutX="406.0" layoutY="245.0" prefHeight="35.0" prefWidth="88.0" promptText="Result">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="501.0" layoutY="247.0" prefHeight="31.0" prefWidth="52.0" text="Ampere">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="249.0" layoutY="308.0" mnemonicParsing="false" onAction="#btnCalculatePowerLaw" prefHeight="44.0" prefWidth="88.0" text="Calculate">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

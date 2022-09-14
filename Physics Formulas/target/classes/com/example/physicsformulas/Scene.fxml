@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Body" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="521.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.physicsformulas.MainController">
+   <children>
+      <Label fx:id="MainHeading" alignment="CENTER" layoutX="54.0" layoutY="7.0" prefHeight="84.0" prefWidth="413.0" text="PHYSICS FORMULAS">
+         <font>
+            <Font name="Times New Roman" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="206.0" layoutY="104.0" mnemonicParsing="false" onAction="#switchToPowerLawScene" prefHeight="44.0" prefWidth="110.0" text="Power Law">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="206.0" layoutY="182.0" mnemonicParsing="false" onAction="#switchToOHMsLawScene" prefHeight="44.0" prefWidth="110.0" text="OHM's Law">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="128.0" layoutY="252.0" text="© All Rights Seserved | Muhamamd Sohaib">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
